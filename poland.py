@@ -1,0 +1,1 @@
+# ok so i made this on a crappy phone so don't expect ts to be good or work
