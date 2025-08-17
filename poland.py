@@ -6,7 +6,7 @@ for likeword in words:
     for commentword in words:
         zetext = TextClip(
             f"which is better: \n {likeword} polen: like the video \n or \n {commentword} polen: comment on the video \n \n im trying to revive this sound, \n remix the video to help me!",
-            fontsize=50
+            fontsize=40
             ).set_duration(12).set_position('center')
         final = CompositeVideoClip(
             [video, zetext]
