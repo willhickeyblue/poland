@@ -11,6 +11,6 @@ for likeword in words:
         final = CompositeVideoClip(
             [video, zetext]
         )
-        final.write_videofile(f"./{likeword} #polen or {commentword} polen.mp4", codec='mpeg4')
+        final.write_videofile(f"./videos/{likeword} #polen or {commentword} polen.mp4", codec='mpeg4')
     
         
